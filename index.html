@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="css/slick.css" rel="stylesheet"/>
+        <link href="css/slick-theme.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="fonts/css/all.min.css"/>    
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="icon" href="img/icon.jpg" type="image/x-icon"/>        
+       
+    </head>
+    <body>
+        <header>
+            <nav>    
+                <div class="cancel-icon">
+                    <span class="fas fa-times"><img src="img/cancel.jpg" alt="cancel"></span>
+                </div> 
+                <div class="menu-icon">
+                    <span class="fas fa-bars"><img src="img/toogle.jpg" alt="toogle"></span>
+                </div>
+                <li id="m-search-btn" class="s-mobile"> <img src="img/search.jpg" alt="image"> </li>           
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="logo" width="108" height="23">
+                    </a>
+                </div>
+                
+                <li class="cart-mobile"><a href="#" class="cart"><img src="img/c.jpg" alt="cart" ></a></li>
+                <li class="profile-mobile"><a href="#" class="profile"><img src="img/profile.svg" alt="cart" width="32" height="32"></a></li>
+                
+                <div class="nav-items left">
+                    
+                    <li class="liborder"><a href="#">Microsoft 365</a></li>
+                    <li class="liborder"><a href="#">Office</a></li>
+                    <li class="liborder"><a href="#">Windows</a></li>    
+                    <li class="liborder"><a href="#">Surface</a></li> 
+                    <li class="liborder"><a href="#">Xbox</a></li> 
+                    <li class="liborder"><a href="#">Support</a></li> 
+                    <div class="dropdown mobile">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Software <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Windows Apps</a></li>
+                            <li><a class="dropdown-item" href="#">OneDrive</a></li>
+                            <li><a class="dropdown-item" href="#">Outlook</a></li>
+                            <li><a class="dropdown-item" href="#">Skype</a></li>
+                            <li><a class="dropdown-item" href="#">OneNote</a></li>
+                            <li><a class="dropdown-item" href="#">Microsoft Teams</a></li>
+                        </div>
+                    </div>  
+                    <div class="dropdown mobile">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PCs & Devices <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Shop Xbox</a></li>
+                            <li><a class="dropdown-item" href="#">Accesories</a></li>
+                        </div>
+                    </div>  
+                    <div class="dropdown mobile">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Entertainment <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Xbox Game Pass Ultimate</a></li>
+                            <li><a class="dropdown-item" href="#">Xbox Live Gold</a></li>
+                            <li><a class="dropdown-item" href="#">Xbox games</a></li>
+                            <li><a class="dropdown-item" href="#">PC games</a></li>
+                            <li><a class="dropdown-item" href="#">Windows digital games</a></li>
+                        </div>
+                    </div>  
+                    <div class="dropdown mobile">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Business <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Microsoft Cloud</a> </li>
+                            <li><a class="dropdown-item" href="#">Microsoft Azure</a> </li>
+                            <li><a class="dropdown-item" href="#">Microsoft Dynamics 365</a> </li>
+                            <li><a class="dropdown-item" href="#">Microsoft 365</a> </li>
+                            <li><a class="dropdown-item" href="#">Windows 365</a> </li>
+                            <li><a class="dropdown-item" href="#">Microsoft Industry</a> </li>
+                            <li><a class="dropdown-item" href="#">Microsoft Advertising</a> </li>
+                            <li><a class="dropdown-item" href="#">Shop Business</a> </li>
+                        </div>
+                    </div>  
+                    <div class="dropdown mobile">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Developer & IT <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">.NET</a> </li>
+                            <li><a class="dropdown-item" href="#">Visual Studio</a> </li>
+                            <li><a class="dropdown-item" href="#">Windows Server</a> </li>
+                            <li><a class="dropdown-item" href="#">Windows Dev Center</a> </li>
+                            <li><a class="dropdown-item" href="#">Docs</a> </li>
+                            <li><a class="dropdown-item" href="#">Power Platform</a> </li>
+                            <li><a class="dropdown-item" href="#">Power Apps</a> </li>
+                        </div>
+                    </div>  
+                    <div class="dropdown mobile">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Other <i class="fas fa-chevron-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Free downloads & security</a> </li>
+                            <li><a class="dropdown-item" href="#">Education</a> </li>
+                            <li><a class="dropdown-item" href="#">Gift Cards</a> </li>
+                            <li><a class="dropdown-item" href="#">Licensing</a> </li>
+                        </div>
+                    </div>  
+                    
+                      
+                    <ul class="nav navbar-nav desk">               
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Microsoft <i class="fas fa-chevron-down pl-1"></i></a>
+                          <ul class="dropdown-menu">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <ul>
+                                            <li><b>Software</b></li>
+                                            <li>Windows Apps</li>
+                                            <li>OneDrive</li>
+                                            <li>Outlook</li>
+                                            <li>Skype</li>
+                                            <li>OneNote</li>
+                                            <li>Microsoft Teams</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <ul>
+                                            <li><b>PCs & Devices</b></li>
+                                            <li>Shop Xbox</li>
+                                            <li>Accessories</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <ul>
+                                            <li><b>Entertainment</b></li>
+                                            <li>Xbox Game Pass Ultimate</li>
+                                            <li>Xbox Live Gold</li>
+                                            <li>Xbox games</li>
+                                            <li>PC games</li>
+                                            <li>Windows digital games</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <ul>
+                                            <li><b>Business</b></li>
+                                            <li>Microsoft Cloud</li>
+                                            <li>Microsoft Azure</li>
+                                            <li>Microsoft Dynamics 365</li>
+                                            <li>Microsoft 365</li>
+                                            <li>Windows 365</li>
+                                            <li>Microsoft Industry</li>
+                                            <li>Microsoft Advertising</li>
+                                            <li>Shop Business</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <ul>
+                                            <li><b>Developer & IT</b></li>
+                                            <li>.NET</li>
+                                            <li>Visual Studio</li>
+                                            <li>Windows Server</li>
+                                            <li>Windows Dev Center</li>
+                                            <li>Docs</li>
+                                            <li>Power Platform</li>
+                                            <li>Power Apps</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                                        <ul>
+                                            <li><b>Other</b></li>
+                                            <li>Free downloads & security</li>
+                                            <li>Education</li>
+                                            <li>Gift Cards</li>
+                                            <li>Licensing</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                        <p><a class="sitemap" href="#">VIEW SITEMAP </a><i class="fas fa-chevron-down"></i></p>
+                                    </div>
+                                </div>
+                            </div>
+                          </ul>
+                        </li>
+                    </ul>
+                    <li id="search-btn" class="s-desk"><span class="search-icon"> <img src="img/search.jpg" alt="image"> </span></li>  
+                    <li class="cart-desk"><a href="#" class="cart"><img src="img/c.jpg" alt="cart" ></a></li>
+                    <li class="profile-desk"><a href="#" class="profile"><img src="img/profile.svg" alt="cart" width="32" height="32"></a></li>                                            
+                </div>                                        
+                
+                <div id="search-wrap" class="wrap-top search-wrap">
+                    <div class="width">
+                        <ul class="clearfix">                            
+                            <li class="searchleft">
+                                
+                                <input type='search' placeholder="Search Microsoft.com">                                                               
+                            </li>  
+                            <li id="li-3"><a class="search-btn"><img src="img/search.jpg" alt="image"> </a></li>                  
+                            <li id="li-4"> <a class="cancel cancel-desktop">Cancel</a><a class="cancel cancel-mobile"><img src="img/arrow-left.jpg" alt="arrow"></a> </li>
+                            
+                        </ul>
+                    </div>
+                </div>          
+            </nav>
+        </header>
+        <main>
+            
+        <section class="secone">
+            <div class="container-fluid">
+                <div class="slider secone__slider">
+                    <div class="secone__slides secone__slideone">
+                        <img class="img img-responsive" src="img/banner2.webp" alt="image" width="1259" height="472">
+                        <div class="secone__content">
+                            <h1>Surface Pro 7</h1>
+                            <p>Ultra-light and versatile</p>
+                            <a class="bt bt-white black"><span>Shop Now</span> <i class="fas fa-chevron-down"></i></a>
+                        </div> 
+                    </div>  
+                    <div class="secone__slides secone__slidetwo">
+                        <img class="img img-responsive first" src="img/banner1.webp" alt="image" width="1259" height="472">
+                        <div class="secone__content">
+                            <a class="bt bt-yellow">New</a>
+                            <h2>Designed for life today – and tomorrow</h2>
+                            <p>The next-generation of games. Your goals. Friends and family. Windows 11 was made to bring you closer to everything you love.</p>
+                            <a class="bt bt-white"><span>See if your PC is ready</span> <i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                                            
+                </div>
+            </div>            
+        </section>
+
+        <section class="sectwo">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="#">
+                            <img src="img/choose.png" alt="img" width="40" height="40">
+                            <p>Choose your Microsoft 365</p>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="#">
+                            <img src="img/explore.webp" alt="image" width="40" height="40">
+                            <p>Explore Surface devices</p>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="#">
+                            <img src="img/buy.webp" alt="image" width="40" height="40">
+                            <p>Buy Xbox games</p>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <a href="#">
+                            <img src="img/get.webp" alt="image" width="40" height="40">
+                            <p>Get Windows 11</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secthree">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/Surface-Laptop-Go.webp" alt="image" width="279" height="157">
+                            <h3>Surface Laptop Go</h3>
+                            <p>Make the most of every day with the sleek style and performance of our lightest Surface laptop.</p>
+                            <a href="#" class="bt bt-black"><span>Shop now </span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/Surface-Go.webp" alt="image" class="pb-0" width="279" height="157">
+                            <a class="btn bt-yellow">New</a>
+                            <h3>Surface Go 3</h3>
+                            <p>The most portable Surface 2-in-1 is perfect for your everyday tasks, homework and play. Now available with Windows 11.</p>
+                            <a href="#" class="bt bt-black"><span>Learn more</span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/Xbox-Game-Pass-Ultimate.jfif" alt="image" width="279" height="157">
+                            <h3>Xbox Game Pass Ultimate</h3>
+                            <p>Get your first 8 months of membership for ₹ 699. Play on the devices you own. Includes EA Play. Offer available to new subscribers only and cannot be combined with any other offers.</p>
+                            <a href="#" class="bt bt-black"><span>Join now</span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box pr-0">
+                            <img src="img/Microsoft-365.webp" alt="image" width="279" height="157">
+                            <h3>Microsoft 365</h3>
+                            <p>Premium Office apps, extra cloud storage, advanced security, and more – all in one convenient subscription.</p>
+                            <a href="#" class="bt bt-black"><span>For up to 6 people</span><i class="fas fa-chevron-down"></i></a>                       
+                            <a href="#" class="bt bt-black"><span>For 1 person </span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secfour">
+            <div class="container-fluid">
+                <img class="img img-responsive" src="img/one-drive.webp" alt="image" width="1259" height="454">
+                <div class="secfour__content">
+                    <h2>
+                        Microsoft OneDrive
+                    </h2>
+                    <p>
+                        Save your files and photos to OneDrive and access them from any device, anywhere
+                    </p>
+                    <a class="bt bt-black"><span>Learn more</span> <i class="fas fa-chevron-down"></i></a>
+                </div> 
+            </div>            
+        </section>
+            
+        <section class="secthree secfive">
+            <div class="container-fluid">
+                
+                <div class="row">
+                    <div class="col-xl-12">
+                        <h2>For business
+                        </h2>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/Surface-for-Business.webp" alt="image" width="279" height="157">
+                            <h3>Surface for Business</h3>
+                            <p>No matter what you do, there’s a Surface to help you do it.</p>
+                            <a href="#" class="bt bt-black"><span>Shop now </span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/Microsoft-365-for-business.webp" alt="image" width="279" height="157">
+                            <h3>Microsoft 365 for business</h3>
+                            <p>Stay a step ahead with powerful apps for productivity, connection and security.</p>
+                            <a href="#" class="bt bt-black"><span>Shop now  </span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/GetMicrosoftTeamsforfree.webp" alt="image" width="279" height="157">
+                            <h3>Get Microsoft Teams for free</h3>
+                            <p>Online meetings, chat and up to 10 GB of shared cloud storage – all in one place.</p>
+                            <a href="#" class="bt bt-black"><span>Sign up for free  </span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <div class="secthree__box">
+                            <img src="img/Welcome-to-your-Windows-365-Cloud-PC.webp" alt="image" width="279" height="157">
+                            <h3>Welcome to your Windows 365 Cloud PC</h3>
+                            <p>Securely stream your Windows experience from the Microsoft cloud to any device.</p>
+                            <a href="#" class="bt bt-black"><span>Get it today </span><i class="fas fa-chevron-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="secsix">
+            <div class="container-fluid">
+                <div class="secsix__text">
+                    <h2>Microsoft’s response to COVID-19</h2>
+                    <p>Read how we’re responding to the COVID-19 outbreak, and get resources to help.</p>
+                    <a href="#" class="bt"><span>Learn more </span><i class="fas fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="secseven">
+            <div class="container-fluid">
+                <span>Follow Microsoft</span>
+                <a href="#"><img src="img/facebook.svg" alt="image" width="32" height="32"></a>
+                <a href="#"><img src="img/twitter.svg" alt="image" width="32" height="32"></a>
+                <a href="#"><img src="img/youtube.svg" alt="image" width="32" height="32"></a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>What's new</h3>
+                        <ul>
+                            <li><a href="#">Microsoft 365</a></li>
+                            <li><a href="#">Surface Pro X</a></li>
+                            <li><a href="#">Surface Pro 7</a></li>
+                            <li><a href="#">Surface Laptop 3</a></li>
+                            <li><a href="#">Windows 11 apps</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Microsoft Store</h3>
+                        <ul>
+                            <li><a href="#">Account profile</a></li>
+                            <li><a href="#">Download Center</a></li>
+                            <li><a href="#">Microsoft Store Support</a></li>
+                            <li><a href="#">Returns</a></li>
+                            <li><a href="#">Order tracking</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Education</h3>
+                        <ul>
+                            <li><a href="#">Microsoft in education</a></li>
+                            <li><a href="#">Office for students</a></li>
+                            <li><a href="#">Office 365 for schools</a></li>
+                            <li><a href="#">Microsoft Azure in education
+                            </a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Enterprise</h3>
+                        <ul>
+                            <li><a href="#">Azure</a></li>
+                            <li><a href="#">AppSource</a></li>
+                            <li><a href="#">Automotive</a></li>
+                            <li><a href="#">Government</a></li>
+                            <li><a href="#">Healthcare</a></li>
+                            <li><a href="#">Manufacturing</a></li>
+                            <li><a href="#">Financial services</a></li>
+                            <li><a href="#">Retail</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Developer</h3>
+                        <ul>
+                            <li><a href="#">Microsoft Visual Studio</a></li>
+                            <li><a href="#">Developer Center</a></li>
+                            <li><a href="#">Channel 9</a></li>
+                            <li><a href="#">Microsoft 365 Dev Center</a></li>
+                            <li><a href="#">Microsoft 365 Developer Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">About Microsoft</a></li>
+                            <li><a href="#">Company news</a></li>
+                            <li><a href="#">Privacy at Microsoft</a></li>
+                            <li><a href="#">Investors</a></li>
+                            <li><a href="#">Security</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row pt-0">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                        <img src="img/earth.jpg" alt="image" width="22" height="22">
+                        <span><a href="#">English (India) </a></span>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                        <span><a href="#">Contact Microsoft</a></span><span><a href="#"> Privacy</a></span><span><a href="#"> Terms of use</a></span><span><a href="#"> Trademarks</a></span><span><a href="#"> About our ads   </a></span> <span> &copy; Microsoft 2021</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        </main>
+        
+        <script src='js/jquery.min.js'></script>
+        <script src="js/umd/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>                    
+        <script src='js/slick.min.js'></script>
+        <script src="js/script.js"></script>
+        <script src="js/nav.js"></script>    
+    </body>
+</html>
